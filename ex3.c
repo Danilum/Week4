@@ -12,7 +12,7 @@
 int main(void) {
     char command[100];
     while (1) {
-        printf("--> ");
+        printf("$  ");
         scanf("%s", command);
         system(command);
     }
